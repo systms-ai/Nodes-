@@ -1,0 +1,19 @@
+[project]
+name = "comfyui-systms-facecomposite"
+description = "Composites refined face images back onto original video frames using bounding box coordinates with support for replace, alpha blend, and feather blending modes."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = [
+    "torch",
+    "numpy",
+    "opencv-python",
+    "tqdm",
+]
+
+[project.urls]
+Repository = "https://github.com/systms-ai/Nodes-"
+
+[tool.comfy]
+PublisherId = "systms-ai"
+DisplayName = "Systms Face Composite"
+Icon = ""
